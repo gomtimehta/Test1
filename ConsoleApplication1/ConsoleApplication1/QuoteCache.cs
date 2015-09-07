@@ -63,7 +63,7 @@ namespace ConsoleApplication1
             }
             return q;
         }
-      
+
         private void UpdateQuote(string symbol, Quote quote)
         {
             if (!_quotes.ContainsKey(symbol))

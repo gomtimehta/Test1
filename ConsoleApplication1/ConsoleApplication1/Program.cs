@@ -40,11 +40,11 @@ namespace ConsoleApplication1
                                File.AppendAllText(outputFodlerPath + "\\T1.txt", outputString);
                                Console.WriteLine(outputString);
                            }
-                       
-                       }, 
+
+                       },
                        () =>
                        {
-                           quoteCache.Set("MSF",100, 10);
+                           quoteCache.Set("MSF", 100, 10);
 
                            string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSF 100, 10";
                            Console.WriteLine(outputString);
@@ -53,7 +53,7 @@ namespace ConsoleApplication1
                        () =>
                        {
                            quoteCache.Set("MSFT", 200, 20); //This set operation should not execute
-                            string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSFT 200, 20";
+                           string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSFT 200, 20";
                            Console.WriteLine(outputString);
                            File.AppendAllText(outputFodlerPath + "\\T4.txt", outputString);
                        },
@@ -75,7 +75,7 @@ namespace ConsoleApplication1
                           string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSF 300, 20";
                           Console.WriteLine(outputString);
                           File.AppendAllText(outputFodlerPath + "\\T5.txt", outputString);
-                         
+
                       },
                       () =>
                       {

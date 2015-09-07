@@ -37,14 +37,14 @@ namespace ConsoleApplication1
 
         public bool IsQuoteValid()
         {
-            bool isSymbolValid =  Regex.IsMatch(Symbol, @"^[A-Z]{3}$");
+            bool isSymbolValid = Regex.IsMatch(Symbol, @"^[A-Z]{3}$");
             bool isPriceValid = Price > 0;
             bool isVolumeValid = Volume > 0;
 
             return isSymbolValid && isPriceValid && isVolumeValid;
         }
 
-        }
+    }
 
 
 }

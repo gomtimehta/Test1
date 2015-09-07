@@ -13,11 +13,12 @@ namespace ConsoleApplication1
         }
 
         [StringLength(3)]
-        [RegularExpression(@"^[A-Z]{3}$",
+        [RegularExpression(@"^[A-Z]$",
          ErrorMessage = "Characters are not allowed.")]
         public string Symbol
         {
-            get; set; }
+            get; set;
+        }
 
         [Range(0.0, Double.MaxValue)]
         public double Price
