@@ -50,6 +50,7 @@
     <Compile Include="Quote.cs" />
     <Compile Include="QuoteCache.cs" />
     <Compile Include="QuoteCacheUsingConcurrentDictionary.cs" />
+    <Compile Include="QuoteWithDataValidationAnnotations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

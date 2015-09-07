@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         }
 
         [StringLength(3)]
-        [RegularExpression(@"^[A-Z]$",
+        [RegularExpression(@"^[A-Z]{3}$",
          ErrorMessage = "Characters are not allowed.")]
         public string Symbol
         {

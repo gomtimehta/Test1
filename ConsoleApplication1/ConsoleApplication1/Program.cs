@@ -35,7 +35,7 @@ namespace ConsoleApplication1
                            var quote = quoteCache.Get("MSF");
                            if (quote != null)
                            {
-                               string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSFT Price " +
+                               string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSF Price " +
                                                      quote.Price + " Volume " + quote.Volume;
                                File.AppendAllText(outputFodlerPath + "\\T1.txt", outputString);
                                Console.WriteLine(outputString);
@@ -46,7 +46,7 @@ namespace ConsoleApplication1
                        {
                            quoteCache.Set("MSF",100, 10);
 
-                           string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSFT 100, 10";
+                           string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSF 100, 10";
                            Console.WriteLine(outputString);
                            File.AppendAllText(outputFodlerPath + "\\T7.txt", outputString);
                        },
@@ -63,7 +63,7 @@ namespace ConsoleApplication1
 
                           if (quote != null)
                           {
-                              string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSFT Price " +
+                              string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSF Price " +
                                                                               quote.Price + " Volume " + quote.Volume;
                               File.AppendAllText(outputFodlerPath + "\\T2.txt", outputString);
                               Console.WriteLine(outputString);
@@ -72,7 +72,7 @@ namespace ConsoleApplication1
                       () =>
                       {
                           quoteCache.Set("MSF", 300, 20);
-                          string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSFT 300, 20";
+                          string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSF 300, 20";
                           Console.WriteLine(outputString);
                           File.AppendAllText(outputFodlerPath + "\\T5.txt", outputString);
                          
@@ -80,7 +80,7 @@ namespace ConsoleApplication1
                       () =>
                       {
                           quoteCache.Set("MSF", 400, 20);
-                          string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSFT 400, 20";
+                          string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Setting MSF 400, 20";
                           Console.WriteLine(outputString);
                           File.AppendAllText(outputFodlerPath + "\\T6.txt", outputString);
                       },
@@ -89,7 +89,7 @@ namespace ConsoleApplication1
                           var quote = quoteCache.Get("MSF");
                           if (quote != null)
                           {
-                              string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSFT Price " +
+                              string outputString = "Time of operation " + DateTime.Now.ToString("HH:mm:ss.ffffff") + " Getting MSF Price " +
                                                      quote.Price + " Volume " + quote.Volume;
                               File.AppendAllText(outputFodlerPath + "\\T3.txt", outputString);
                               Console.WriteLine(outputString);
