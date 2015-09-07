@@ -1,0 +1,6 @@
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Projects\SchwabThreadingTest\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

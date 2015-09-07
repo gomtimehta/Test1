@@ -1,0 +1,1 @@
+Time of operation 12:57:24.623836 Getting MSFT Price300Volume20Time of operation 12:57:53.248473 Getting MSFT Price300Volume20Time of operation 12:59:08.133756 Getting MSFT Price 200 Volume 20Time of operation 17:32:52.442380 Getting MSFT Price 400 Volume 20Time of operation 17:53:49.813298 Getting MSFT Price 100 Volume -10
