@@ -1,5 +1,9 @@
 # Multithreading
 For Schwab
+Note - There are three projects
+Core contains the core business logic
+ConsoleApplication is the entry point to run and see the Cache running live
+Tests - This project contains xunit unit tests, it uses fluentassertions on top of xunit.
 
 Answer the validation related part
 
