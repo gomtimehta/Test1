@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ConsoleApplication1
+namespace Core
 {
     public class QuoteWithDataValidationAnnotations
     {

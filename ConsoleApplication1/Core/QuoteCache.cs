@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Core
 {
     /// <summary>
     /// //This is a kind of utility that will be used by other parts of applications or may even be used by

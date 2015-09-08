@@ -1,7 +1,7 @@
 ﻿
 using System.Text.RegularExpressions;
 
-namespace ConsoleApplication1
+namespace Core
 {
     public class Quote
     {

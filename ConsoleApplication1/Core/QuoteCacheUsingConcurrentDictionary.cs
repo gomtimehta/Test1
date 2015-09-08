@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 
-namespace ConsoleApplication1
+namespace Core
 {
     public class QuoteCacheUsingConcurrentDictionary : IQuoteCache
     {
